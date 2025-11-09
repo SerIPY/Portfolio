@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru" data-lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме: Страпко Роман</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header id="header-container"></header>
+        <main>
+            <div class="main-grid">
+                <div class="left-column">
+                    <section id="summary-section" class="card">
+                        <h2>Обо мне</h2>
+                        <p id="summary"></p>
+                    </section>
+
+                    <section id="experience-section" class="card">
+                        <h2>Ключевой проект</h2>
+                        <div id="experience-container"></div>
+                    </section>
+
+                    <section id="achievements-section" class="card">
+                        <h2 id="achievements-title"></h2>
+                        <div id="achievements-container"></div>
+                    </section>
+                </div>
+                <div class="right-column">
+                    <section id="skills-section" class="card">
+                        <h2>Ключевые компетенции</h2>
+                        <div id="skills-container"></div>
+                    </section>
+
+                    <section id="education-section" class="card">
+                        <h2>Образование</h2>
+                        <div id="education-container"></div>
+                    </section>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>Это интерактивное резюме создано с помощью HTML, CSS и JavaScript.</p>
+        </footer>
+    </div>
+    <button id="download-pdf">Скачать PDF</button> <!-- Кнопка для скачивания PDF -->
+    <button id="language-toggle">English</button> <!-- Кнопка переключения языка -->
+    <script src="app.js"></script>
+</body>
+</html>
